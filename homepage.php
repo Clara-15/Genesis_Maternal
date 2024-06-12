@@ -24,7 +24,7 @@ include("connect.php");
           <li class="link"><a href="about.html">About Us</a></li>
           <li class="link"><a href="service.html">Services</a></li>
           <li class="link"><a href="resource.html">Resources</a></li>
-          <li class="link"><a href="blog.html">Blog</a></li>
+          
         </ul>
         <button class="btn">Contact Us</button>
       </nav>
@@ -36,16 +36,16 @@ include("connect.php");
              Our range of services is designed to support and guide you through this
               miraculous journey of pregnancy and motherhood.
           </p>
-          <button class="btn">See Services</button>
+          <a href="service.html" class="btn">See Services</a>
         </div>
         <div class="header__form">
           <form>
-            <h4>Book Now</h4>
+            <h4>Join Our Community</h4>
             <input type="text" placeholder="First Name" />
             <input type="text" placeholder="Last Name" />
             <input type="text" placeholder="Address" />
             <input type="text" placeholder="Phone No." />
-            <button class="btn form__btn">Book Appointment</button>
+            <button class="btn form__btn">Join Now!</button>
           </form>
         </div>
       </div>
